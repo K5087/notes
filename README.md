@@ -1,4 +1,4 @@
-# Mokes's notes
+# Moke's notes
 
 My code notes
 
