@@ -26,7 +26,7 @@ markdown语法简单，在表现上也足以承担普通文档的观感，在网
 
 ###### 标题H6
 
-<details markdown="1">
+<details class="details-block" markdown="1">
 <summary>点击此处展开</summary>
 ```markdown
 # 标题H1
@@ -55,7 +55,7 @@ markdown语法简单，在表现上也足以承担普通文档的观感，在网
 
 上标：H<sub>2</sub>，下标：O<sup>2</sup>
 
-<details markdown="1">
+<details class="details-block" markdown="1">
 <summary>点击此处展开</summary>
 ```markdown
 <s>删除线</s>
@@ -75,7 +75,7 @@ markdown语法简单，在表现上也足以承担普通文档的观感，在网
 
 The <abbr title="Hyper Text Markup Language">HTML</abbr> specification is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.
 
-<details markdown="1">
+<details class="details-block" markdown="1">
 <summary>点击此处展开</summary>
 ```markdown
 The <abbr title="Hyper Text Markup Language">HTML</abbr> specification is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.
@@ -88,7 +88,7 @@ The <abbr title="Hyper Text Markup Language">HTML</abbr> specification is mainta
 
 > 引用：引用内换行需要'\<br/\>'标签<br/>即可换行
 
-<details markdown="1">
+<details class="details-block" markdown="1">
 <summary>点击此处展开</summary>
 ```markdown
 > 引用文本
@@ -109,7 +109,7 @@ The <abbr title="Hyper Text Markup Language">HTML</abbr> specification is mainta
 
 [moke_link]: https://github.com/K5087
 
-<details markdown="1">
+<details class="details-block" markdown="1">
 <summary>点击此处展开</summary>
 ```markdown
 [链接](https://github.com/K5087)
@@ -133,7 +133,7 @@ The <abbr title="Hyper Text Markup Language">HTML</abbr> specification is mainta
 [链接][2]
 
 [2]: https://github.com/K5087
-<details markdown="1">
+<details class="details-block" markdown="1">
 <summary>点击此处展开</summary>
 ```markdown
 测试[^1]脚注
@@ -152,7 +152,7 @@ The <abbr title="Hyper Text Markup Language">HTML</abbr> specification is mainta
 
 这是一个查看当前用户的命令 `whoami`
 
-<details markdown="1">
+<details class="details-block" markdown="1">
 <summary>点击此处展开</summary>
 ```markdown
 这是一个查看当前用户的命令 `whoami`
@@ -170,7 +170,7 @@ The <abbr title="Hyper Text Markup Language">HTML</abbr> specification is mainta
         std::cout<<"Hello,World\n";
     }
 
-<details markdown="1">
+<details class="details-block" markdown="1">
 <summary>点击此处展开</summary>
 ```markdown
     #include <iostream>
@@ -193,7 +193,7 @@ int main(int argc,char** argv)
 }
 ```
 
-<details markdown="1">
+<details class="details-block" markdown="1">
 <summary>点击此处展开</summary>
 ````markdown
 ```cpp
@@ -212,7 +212,7 @@ int main(int argc,char** argv)
 带链接的图片
 [![](/assets/images/道与碳基猴子饲养守则.png)](https://www.qidian.com/book/1017327563/ "道士大战外星人")
 
-<details markdown="1">
+<details class="details-block" markdown="1">
 <summary>点击此处展开</summary>
 ```markdown
 [![](/assets/images/道与碳基猴子饲养守则.png)](https://www.qidian.com/book/1017327563/ "道士大战外星人")
@@ -227,7 +227,7 @@ int main(int argc,char** argv)
 2. 选项二
 3. 选项三
 
-<details markdown="1">
+<details class="details-block" markdown="1">
 <summary>点击此处展开</summary>
 ```markdown
 1. 选项一
@@ -254,7 +254,7 @@ int main(int argc,char** argv)
   - 列表三-2
   - 列表三-3
 
-<details markdown="1">
+<details class="details-block" markdown="1">
 <summary>点击此处展开</summary>
 ```markdown
 - 列表一
@@ -272,7 +272,6 @@ int main(int argc,char** argv)
     - 列表三-1-1
   - 列表三-2
   - 列表三-3
-
 ```
 </details>
 
@@ -285,7 +284,7 @@ int main(int argc,char** argv)
   - [ ] 任务三-1
   - [ ] 任务三-2
 
-<details markdown="1">
+<details class="details-block" markdown="1">
 <summary>点击此处展开</summary>
 ```markdown
 - [x] 任务一
@@ -304,7 +303,7 @@ int main(int argc,char** argv)
 | 左对齐     |   居中对齐   |     右对齐 |
 | 左对齐文本 | 居中对齐文本 | 右对齐文本 |
 
-<details markdown="1">
+<details class="details-block" markdown="1">
 <summary>点击此处展开</summary>
 ```markdown
 | 时间       |     地点     |       人物 |
