@@ -88,12 +88,36 @@ The <abbr title="Hyper Text Markup Language">HTML</abbr> specification is mainta
 
 > 引用：引用内换行需要'\<br/\>'标签<br/>即可换行
 
+> tip
+{:.prompt-tip}
+
+> info 
+{:.prompt-info}
+
+> warning
+{:.prompt-warning}
+
+> danger
+{:.prompt-danger}
+
 <details class="details-block" markdown="1">
 <summary>点击此处展开</summary>
 ```markdown
 > 引用文本
 
 > 引用：引用内换行需要'\<br/\>'标签<br/>即可换行
+
+> tip
+{:.prompt-tip}
+
+> info 
+{:.prompt-info}
+
+> warning
+{:.prompt-warning}
+
+> danger
+{:.prompt-danger}
 ```
 </details>
 
